@@ -62,7 +62,9 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+.container {
+	margin: 1%;
+}
 nav {
 	display: inline-block;
 }
@@ -80,11 +82,11 @@ nav a {
 .cta-text {
 	display: inline-block;
 	font-size: 78px;
-	margin: 0px 200px 0px 0px;
+	margin: 0px 180px 0px 0px;
 	text-align: center;
 }
 .cta {
-	margin: 80px 5% 50px 15%;
+	margin: 80px 5% 50px 14%;
 }
 h1 {
 	margin-bottom: 0px;
@@ -102,13 +104,19 @@ button {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin: 0px 0px 0px 50px;
-	position: relative;
 }
+/*.main-content .top-content .text-content{
+	display: inline-block;
+	margin-top: 30px;
+}*/
 .main-content .top-content .text-content {
 	display: inline-block;
-	width: 35%;
-	margin: 30px;
-	margin-left: 10%;
+	width: 45%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main-content .top-content .text-content:last-child {
+	margin-left: 80px;
 }
 .main-content .middle-img {
 	display: block;
@@ -119,8 +127,7 @@ button {
 .main-content .bottom-content .text-content {
 	display: inline-block;
 	width: 30%;
-	margin: 20px;
-	margin-left: 1%;
+	margin: 20px 20px 20px 0px;
 }
 footer {
 	text-align: center;
@@ -128,7 +135,7 @@ footer {
 	font-size: 0.75rem;
 }
 .contact {
-	margin-left: 55px;
+	margin-left: 49px;
 	margin-top: 30px;
 }
 .contact p {
