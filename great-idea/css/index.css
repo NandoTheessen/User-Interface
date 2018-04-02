@@ -65,28 +65,24 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin: 1%;
 }
-nav {
+.header {
 	display: inline-block;
 }
-nav a {
+.header a {
 	margin: 20px 50px 0px 50px;
 	color: grey;
 	text-decoration: inherit;
 	font-family: 'Titillium Web', sans-serif;
 	opacity: 0.3;
 }
-.logo {
-	display: inline-block;
-	margin: 0px 0px 0px 0px;
-}
-.cta-text {
+.h2-text {
 	display: inline-block;
 	font-size: 78px;
 	margin: 0px 180px 0px 0px;
 	text-align: center;
 }
-.cta {
-	margin: 80px 5% 50px 14%;
+.header2 {
+	margin: 80px 5% 50px 15%;
 }
 h1 {
 	margin-bottom: 0px;
