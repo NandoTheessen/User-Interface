@@ -88,24 +88,14 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 50px 0px 50px 0px;
-}
-h1 {
-	margin-bottom: 0px;
-}
-button {
-	background: white;
-	border: none;
-	border: 1px solid black;
-	font-size: 16px;
-	padding: 3px 40px;
-	font-family: 'Titillium Web', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .main-content {
 	width: 90%;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	margin: 0px 0px 0px 50px;
+	margin: 55px 0px 0px 50px;
 }
 .main-content .top-content {
 	display: flex;
@@ -139,4 +129,15 @@ footer {
 }
 .contact p {
 	margin-bottom: 10px;
+}
+.contact2 {
+	margin-left: 49px;
+    margin-top: 30px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact2 p {
+    margin-bottom: 10px;
 }
